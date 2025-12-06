@@ -1,0 +1,1 @@
+var dzisiaj = new Date();
