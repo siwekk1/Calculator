@@ -6,17 +6,34 @@
 <title>Calculator</title>
 <link rel="stylesheet" href="style.css">
 <script>
-    var dzisiaj = new Date();
+
+function liczenie()
+{
+var dzisiaj = new Date();
+
+var dzien = dzisiaj.getDate();
+var miesiac = dzisiaj.getMonth()+1;
+var rok = dzisiaj.getFullYear();
+
+var godzina = dzisiaj.getHours();
+var minuta = dzisiaj.getMinutes();
+var sekunda = dzisiaj.getSeconds();
+
+setTimeout("liczenie()",1000)
+}
 
 
 </script>
+
 </head>
 <body>
-    <div id="clock">
+    <div id="clock"> </div>
+    <script>
+        document.getElementById("clock").innerHTML = dzien+"/"+miesiac+"/"+rok+" |"+godzina+":"+minuta+":"+sekunda;
+
+    </script>
 
 
-
-    </div>
 
 </body>
 </html>
