@@ -1,6 +1,9 @@
 body{
     background-color: #303030;
     color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-weight: 20px;  
+    font-style: normal;
 }
 #container{
     margin-left: auto;
@@ -13,4 +16,54 @@ margin: 20px;
 }
 .square{
     float:left;
+    width: 50%;
+}
+#logo{
+    float: left;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 70px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#zegar{
+    float: left;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.tile1{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #3095d3;
+    float: left;
+}
+.tile2{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #666666;
+    float: left;
+}
+.tile3{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #93c748;
+    float: left;
+}
+.title4{
+margin: 10px;
+    width: 480px;
+    height: 142px;
+    background-color: orange;
+
+}
+.tile5{
+    margin: 10px;
+    width: 480px;
+    height: 302px;
+    background-color: #224f11;
 }
