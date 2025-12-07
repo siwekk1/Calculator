@@ -42,6 +42,7 @@ text-align: center;
     height: 142px;
     background-color: #3095d3;
     float: left;
+    text-align: center;
 }
 .tile2{
     margin: 10px;
@@ -49,6 +50,7 @@ text-align: center;
     height: 142px;
     background-color: #666666;
     float: left;
+    text-align: center;
 }
 .tile3{
     margin: 10px;
@@ -56,12 +58,16 @@ text-align: center;
     height: 142px;
     background-color: #93c748;
     float: left;
+    text-align: center;
 }
 .title4{
 margin: 10px;
-    width: 480px;
-    height: 142px;
-    background-color: rgb(219, 131, 15);
+    width: 420px;
+    height: 82px;
+    background-color: #ee5a32;
+    text-align: center;
+    font-size: 26px;
+    padding: 30px;
 
 }
 .tile5{
@@ -69,6 +75,7 @@ margin: 10px;
     width: 480px;
     height: 304px;
     background-color: #666666;
+    text-align: center;
 }
 #yt{
     background-color: #d94348;

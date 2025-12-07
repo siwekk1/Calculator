@@ -54,12 +54,12 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-user:before { content: '\e800'; } /* '' */
-.icon-mail:before { content: '\e801'; } /* '' */
-.icon-briefcase:before { content: '\e802'; } /* '' */
+.icon-user:before { content: '\e800';font-size: 76px; margin-top: 20px; } /* '' */
+.icon-mail:before { content: '\e801';font-size: 76px; margin-top: 20px; } /* '' */
+.icon-briefcase:before { content: '\e802';font-size: 76px; margin-top: 20px; } /* '' */
 .icon-facebook:before { content: '\f09a';font-size: 76px; margin-top: 35px; } /* '' */
 .icon-gplus:before { content: '\f0d5';font-size: 66px; margin-top: 38px; } /* '' */
 .icon-coffee:before { content: '\f0f4'; } /* '' */
-.icon-laptop:before { content: '\f109'; } /* '' */
+.icon-laptop:before { content: '\f109';font-size: 76px; margin-top: 20px; } /* '' */
 .icon-youtube:before { content: '\f167'; font-size: 76px; margin-top: 35px;} /* '' */
 .icon-github-squared:before { content: '\f300';font-size: 76px; margin-top: 35px; } /* '' */
